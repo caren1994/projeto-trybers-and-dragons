@@ -1,5 +1,5 @@
 abstract class Race {
-  constructor(public _name:string, public _dexterity:number) {}
+  constructor(private _name:string, private _dexterity:number) {}
   
   public get name(): string {
     return this._name;
