@@ -13,5 +13,5 @@ export default abstract class Race {
     throw new Error('Not implemented');
   }
 
-  abstract get maxLifePoints():number ;
+  abstract get maxLifePoints():number ;// coloquei o get pois só a filha pode ter o poder de implementar
 }
