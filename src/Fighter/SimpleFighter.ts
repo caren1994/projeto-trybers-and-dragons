@@ -1,6 +1,6 @@
-export default interface SimpleFlighter{
+export default interface SimpleFighter{
   lifePoints:number
   strength:number
-  attack(enemy:SimpleFlighter):void
+  attack(enemy:SimpleFighter):void
   receiveDamage(attackPoints:number):number
 }
