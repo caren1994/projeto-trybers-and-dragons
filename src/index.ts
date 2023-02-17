@@ -16,8 +16,8 @@ const pvp = new PVP(player2, player3);
 
 const pve = new PVE(player1, [monster1, monster2]);
 
-const runBattles = (arr: Battle[]) => {
-  arr.map((battle) => battle.fight());
-};
+function runBattles(arr: Battle[]) {
+  arr.forEach((battle) => battle.fight());
+}
 
 export { player1, player2, player3, monster1, monster2, pvp, pve, runBattles };
